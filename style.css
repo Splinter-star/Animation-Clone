@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.images {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.images img {
+    display: block;
+    /* max-width: 100%; */
+    /* height: auto; */
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+#sky {
+    width: 100%;
+    height: 25vh;
+}
+
+#sky img {
+    width: 100%;
+    height:40vh;
+    object-fit: cover;
+}
+
+
+#house {
+    width: 100%;
+}
+
+#house img {
+    width: 100%;
+    margin-top: -25vh;
+}
+
+#computer {
+    overflow: hidden;
+}
+
+#aeroplane {
+    width: 150px;
+    height: 150px;
+    animation: aeroplane 2.7s linear 2s infinite normal;
+}
+
+@keyframes aeroplane {
+    from {
+       transform: translate(1000px,0px);
+    }
+    to {
+        transform: translate(-200px,0px);
+    }
+}
+
+#aeroplane img {
+    transform: translateY(-280px);
+    width: 300px;
+}
+
+#computer {
+    overflow: hidden;
+}
+
+#woman {
+    width: 150px;
+    height: 150px;
+    animation: woman 9s linear 5s infinite normal ;
+}
+
+#woman img {
+    width: 120px;
+    transform: translateY(-119px);
+}
+
+@keyframes woman {
+    from {
+        transform: translate(-200px, 0px);
+    }
+    to {
+        transform: translate(1200px, 0px);
+    }
+}
+
+#man {
+    width: 150px;
+    height: 150px;
+    animation: man 9s linear 5s infinite normal;
+}
+
+#man img {
+    width: 120px;
+    transform: translateY(-270px);
+}
+
+@keyframes man {
+    from {
+        transform: translate(1250px, 0px);
+    }
+    to {
+        transform: translate(-200px, 0px);
+    }
+}
+
+#helicopter {
+    width: 150px;
+    height: 150px;
+    animation: helicopter 5s linear 5s infinite normal;
+}
+
+#helicopter img {
+    width: 200px;   
+    transform: translateY(-550px);
+}
+
+@keyframes helicopter {
+    from {
+        transform: translate(1200px, 0px);
+    }
+    to {
+        transform: translate(-200px, 0px);
+    }
+}
+
+#road {
+    width: 100%;
+    height: 150px;
+}
+
+#road img {
+    width: 100%;
+    height: 200px;
+}
+
+#road img {
+    width: 100%;
+    height: 160px;
+    transform: translateY(-570px);
+    margin-top: 120px;
+}
+
+#green {
+    background-color: #58F758;
+    width: 100%;
+    height: 40px;
+    transform: translateY(-420px);
+    margin-top: -225px;
+}
+
+#bike {
+    width: 150px;
+    height: 150px;
+    animation: bike 4s linear 4s infinite normal;
+}
+
+#bike img {
+    transform: translateY(-725px);
+    width: 100px;
+    height: 100px;
+}
+
+@keyframes bike {
+    from {
+        transform: translate(1200px, 0px);
+    }
+    to {
+        transform: translate(-200px, 0px);
+    }
+}
+
+#yellow-car {
+    width: 200px;
+    height: 100px;
+    animation: yellow-car 3s linear 6s infinite normal;
+}
+
+#yellow-car img {
+    transform: translateY(-900px);
+    width: 150px;
+    height: 150px;
+}
+
+@keyframes yellow-car {
+    from {
+        transform: translate(1200px,0px);
+    }
+    to {
+        transform: translate(-200px, 0px);
+    }
+}
+
+#truck {
+    width: 150px;
+    height: 150px;
+    animation: truck 3.5s linear 3s infinite normal;
+}
+
+#truck img {
+    transform: translateY(-935px);
+    width: 150px;
+    height: 150px;
+}
+
+@keyframes truck {
+     from {
+        transform: translate(1200px, 0px);
+     }
+     to {
+        transform: translate(-200px, 0px);
+     }
+}
+
+#grey {
+    background-color: #313030;
+    width: 100%;
+    height: 70px;
+    transform: translateY(-970px);
+}
+
+#oneway {
+    width: 150px;
+    height: 150px;
+}
+
+#oneway img {
+     transform: translateY(-1190px);
+     margin-left: 160px;
+}
+
+#light {
+    transform: translateY(-1305px);
+    margin-left: 290px;
+}
+
+#light img {
+    width: 90px;
+    height: 150px;
+}
+
+#lights {
+    transform: translateY(-1455px);
+    margin-left: 600px;
+}
+
+#lights img {
+    width: 90px;
+    height: 150px;
+}
+
+#lightes {
+    transform: translateY(-1600px);
+    margin-left: 900px;
+}
+
+#lightes img {
+    width: 90px;
+    height: 150px;
+}
+
+.lightess {
+    transform: translateY(-1000px);
+}
+
+.lightess img {
+    width: 90px;
+    height: 150px;
+}
+
+#oneways {
+    transform: translateY(-1000px);
+}
+
+#oneways img {
+
+}
+
+#roads img {
+    width: 100%;
+    height: 160px;
+    transform: translateY(-2190px);
+}
+
+#sport-car {
+    animation: sport-car 2s linear 4s infinite normal;
+    width: 150px;
+    height: 150px;
+}
+
+#sport-car img {
+    width: 150px;
+    height: 50px;
+    transform: translateY(-2330px);
+}
+
+@keyframes sport-car {
+    from {
+        transform: translate(-200px, 0px);
+    }
+    to {
+        transform: translate(1200px, 0px);
+    }
+}
+
+#taxi {
+    width: 150px;
+    height: 150px;
+    animation: taxi 3.5s linear 4s infinite normal;
+}
+
+#taxi img {
+    width: 150px;
+    height: 100px;
+    transform: translateY(-2435px);
+}
+
+@keyframes taxi {
+    from {
+        transform: translate(-200px, 0px);
+    }
+    to {
+        transform: translate(1200px, 0px);
+    }
+}
+
+#trucks {
+    width: 150px;
+    height: 150px;
+    animation: trucks 5s linear 7s infinite normal;
+}
+
+#trucks img {
+    width: 150px;
+    height: 150px;
+    transform: translateY(-2615px);
+}
+
+@keyframes trucks {
+    from {
+        transform: translate(-200px, 0px);
+    }
+    to {
+        transform: translate(1400px, 0px);
+    }
+}
+
+#biker {
+    animation: biker 5s linear 4s infinite normal;
+}
+
+#biker img {
+    width: 120px;
+    height: 100px;
+    transform: translateY(-2740px);
+}
+
+@keyframes biker {
+    from {
+        transform: translate(-200px, 0px);
+    }
+    to {
+        transform: translate(1200px, 0px);
+    }
+}
